@@ -7,12 +7,13 @@ public class HitObjectController : MonoBehaviour
 {
 
     public ViveRoleProperty objectRole;
-    private AudioSource audioSource;
+    public AudioSource hitSound;
+    public AudioSource errorSound;
 
     // Start is called before the first frame update
     void Start()
     {
-        audioSource = GetComponent<AudioSource>();
+        
     }
 
     // Update is called once per frame
@@ -30,10 +31,13 @@ public class HitObjectController : MonoBehaviour
 
         if (objectRole == tracker.viveRole)
         {
-            audioSource.Play(0);
+            hitSound.Play(0);
             Destroy(gameObject);
             Debug.Log("correct entered!");
-        } 
+        } else
+        {
+            errorSound.Play(0);
+        }
 
         
     }

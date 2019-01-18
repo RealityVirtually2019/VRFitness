@@ -123,3 +123,5 @@ MonoBehaviour:
     m_roleTypeFullName: 
     m_roleValueName: LeftHand
     m_roleValueInt: 1
+  hitSound: {fileID: 0}
+  errorSound: {fileID: 0}
