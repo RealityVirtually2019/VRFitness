@@ -4,17 +4,24 @@ using UnityEngine;
 
 public class ObjectGlitcher : MonoBehaviour {
 
-
+    //public Camera camera;
     public float glitchChance = .05f;
 
     private Renderer blockRenderer;
     private WaitForSeconds glitchLoopWait = new WaitForSeconds(.2f);
     private WaitForSeconds glitchDuration = new WaitForSeconds(.2f);
 
+
     void Awake()
     {
         blockRenderer = GetComponent<Renderer> ();
+        //camera.backgroundColor = Color(1, 1, 1, 1);
     }
+
+   /* void Start()
+    {
+        camera.backgroundColor = Color(1,1,1,1);
+    } */
 
     IEnumerator Start () 
     {

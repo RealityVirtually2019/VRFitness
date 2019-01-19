@@ -3,7 +3,7 @@
     Properties
     {
         _MainTex ("Texture", 2D) = "white" {}
-        //_TintColor("Tint Color", Color) = (1,1,1,1)
+        _TintColor("Tint Color", Color) = (250,1,1,1)
         _Transparency("Transparency", Range(0.0,1.0)) = 0.25 
         _CutoutThresh("Cutout Threshold", Range(0.0,1.0)) = 0.2
         _Distance("_Distance", Float) = 1
@@ -41,7 +41,7 @@
 
             sampler2D _MainTex;
             float4 _MainTex_ST;
-            //float4 _TintColor;
+            float4 _TintColor;
             float _Transparency;
             float _CutoutThresh;
             float _Distance;
@@ -61,7 +61,7 @@
             fixed4 frag (v2f i) : SV_Target
             {
                 
-                fixed4 col = tex2D(_MainTex, i.uv);
+                fixed4 col = tex2D(_MainTex, i.uv) + _TintColor;
                 col.a = _Transparency;
                 clip(col.r - _CutoutThresh);
                 return col;

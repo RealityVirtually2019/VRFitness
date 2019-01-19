@@ -12,6 +12,7 @@ public class ObjectPath : MonoBehaviour
     private int currWaypoint = 0;
     private Vector3 target;
     private GameObject obj = null;
+    private float startDist;
 
 
     // Start is called before the first frame update
@@ -29,6 +30,7 @@ public class ObjectPath : MonoBehaviour
 		obj.transform.localScale = ObjectScale;
 		currWaypoint = 1;
         target = wayPoints[currWaypoint].transform.position;
+        startDist = Vector3.Distance(obj.transform.position, target);
     }
 
 	private void OnEnable()
@@ -44,13 +46,14 @@ public class ObjectPath : MonoBehaviour
 
 	void Update()
     {
-        if ((Vector3.Distance(obj.transform.position, target)) < 0.5)
+        float dist = Vector3.Distance(obj.transform.position, target);
+        if (dist < 0.5)
         {
             NextPoint();
         }
         else
         {
-            obj.transform.position = Vector3.MoveTowards(obj.transform.position, target, speed * Time.deltaTime);
+            obj.transform.position = Vector3.MoveTowards(obj.transform.position, target, (speed * Time.deltaTime));
 
             //Add Rotation towards the target
             Vector3 dir = target - obj.transform.position;
@@ -73,5 +76,6 @@ public class ObjectPath : MonoBehaviour
             currWaypoint++;
         }
         target = wayPoints[currWaypoint].transform.position;
+        startDist = Vector3.Distance(obj.transform.position, target);
     }
 }
