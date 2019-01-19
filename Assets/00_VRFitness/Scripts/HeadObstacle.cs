@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody))]
-public class Obstacle : MonoBehaviour
+public class HeadObstacle : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()

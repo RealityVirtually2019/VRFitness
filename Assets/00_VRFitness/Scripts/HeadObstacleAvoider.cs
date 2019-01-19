@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HeadObstacleAvoider : ObstacleAvoider
+public class HeadObstacleAvoider : MonoBehaviour
 {
 	private AudioListener ears = null;
 	private AudioLowPassFilter lowPassFilter = null;
@@ -26,13 +26,22 @@ public class HeadObstacleAvoider : ObstacleAvoider
 		Destroy(lowPassFilter);
 	}
 
-	protected override void OnObstacleCollisionEnter(Obstacle obstacle)
+	private void OnTriggerEnter(Collider other)
 	{
-		lowPassFilter.enabled = true;
+		HeadObstacle obstacle = other.GetComponent<HeadObstacle>();
+		if (obstacle != null)
+		{
+			lowPassFilter.enabled = true;
+		}
 	}
 
-	protected override void OnObstacleCollisionExit(Obstacle obstacle)
+	private void OnTriggerExit(Collider other)
 	{
-		lowPassFilter.enabled = false;
+		HeadObstacle obstacle = other.GetComponent<HeadObstacle>();
+		if (obstacle != null)
+		{
+			lowPassFilter.enabled = false;
+		}
 	}
+
 }

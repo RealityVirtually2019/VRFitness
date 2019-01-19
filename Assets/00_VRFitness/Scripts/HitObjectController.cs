@@ -63,10 +63,6 @@ public class HitObjectController : MonoBehaviour
                 errorSound.Play(0);
             }
         }
-
-        
+       
     }
-
-
-
-    }
+}
