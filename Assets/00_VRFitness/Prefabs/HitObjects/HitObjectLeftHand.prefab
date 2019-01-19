@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8821145952201247869}
   - component: {fileID: 1986834062}
   m_Layer: 0
-  m_Name: HitObject2Pink
+  m_Name: HitObjectLeftHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -113,6 +113,7 @@ MonoBehaviour:
   hitSound: {fileID: 1965175802446590432}
   errorSound: {fileID: 6137044882755582235}
   particleEffect: {fileID: 100000, guid: db6d9280399892342b96b2f411750b4d, type: 3}
+  mesh: {fileID: 897985767242039492}
 --- !u!82 &1965175802446590432
 AudioSource:
   m_ObjectHideFlags: 0
@@ -366,6 +367,12 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: a262da2f4c66c694d89b9387cfdbfa7f, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2dfc1039b6c2a8a43a61b405d889f807, type: 3}
+--- !u!1 &897985767242039492 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 2dfc1039b6c2a8a43a61b405d889f807,
+    type: 3}
+  m_PrefabInstance: {fileID: 897985767241942628}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &897985767242341604 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 2dfc1039b6c2a8a43a61b405d889f807,

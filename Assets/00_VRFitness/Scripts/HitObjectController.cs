@@ -10,6 +10,7 @@ public class HitObjectController : MonoBehaviour
     public AudioSource hitSound;
     public AudioSource errorSound;
     public GameObject particleEffect;
+    public GameObject mesh;
 
     // Start is called before the first frame update
     void Start()
@@ -48,8 +49,8 @@ public class HitObjectController : MonoBehaviour
             else
             {
                 GameObject effectObj = Instantiate(particleEffect, transform.position, transform.rotation);
-            }  
-            Destroy(gameObject);
+            }
+            mesh.SetActive(false);
             Debug.Log("correct entered!");
         }
         else
