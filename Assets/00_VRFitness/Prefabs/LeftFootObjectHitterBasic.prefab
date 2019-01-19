@@ -100,7 +100,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1960772770664006441}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 938a961968a8b144d8bdac46b3dc96ba, type: 3}
   m_Name: 
@@ -123,3 +123,5 @@ MonoBehaviour:
     m_roleTypeFullName: HTC.UnityPlugin.Vive.TrackerRole
     m_roleValueName: Tracker2
     m_roleValueInt: 2
+  hitSound: {fileID: 0}
+  errorSound: {fileID: 0}
