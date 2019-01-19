@@ -1,0 +1,1 @@
+This file is just to make sure Git adds empty folders.
