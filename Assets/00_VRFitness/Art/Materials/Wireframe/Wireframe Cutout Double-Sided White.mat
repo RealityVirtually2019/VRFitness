@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Wireframe Cutout Double-Sided 1
+  m_Name: Wireframe Cutout Double-Sided White
   m_Shader: {fileID: 4800000, guid: 2fd7d2ad6e49f5b44ac540005c095ff5, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
