@@ -56,8 +56,8 @@ public class ObjectPath : MonoBehaviour
             obj.transform.position = Vector3.MoveTowards(obj.transform.position, target, (speed * Time.deltaTime));
 
             //Add Rotation towards the target
-            Vector3 dir = target - obj.transform.position;
-            dir.x = 0;
+            Transform playerTransform = Camera.main.transform;
+            Vector3 dir = playerTransform.position - obj.transform.position;
             Quaternion rot = Quaternion.LookRotation(dir);
             obj.transform.rotation = Quaternion.Slerp(obj.transform.rotation, rot, speed * Time.deltaTime);
         }
