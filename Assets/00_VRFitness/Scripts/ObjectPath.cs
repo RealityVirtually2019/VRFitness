@@ -5,6 +5,7 @@ using UnityEngine;
 public class ObjectPath : MonoBehaviour
 {
     public GameObject ObjectPrefab = null;
+	public Vector3 ObjectScale = Vector3.one;
     public Transform[] wayPoints;
     public float speed = 2.0f;
 
@@ -16,12 +17,32 @@ public class ObjectPath : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+		if (ObjectPrefab == null)
+		{
+			Debug.LogError("ObjectPath: An Object Prefab must be provided in the inspector!");
+		}
+		if (wayPoints.Length < 2)
+		{
+			Debug.LogError("ObjectPath: Must provide at least 2 waypoints in the inspector!");
+		}
         obj = Instantiate<GameObject>(ObjectPrefab, wayPoints[0].transform);
+		obj.transform.localScale = ObjectScale;
+		currWaypoint = 1;
         target = wayPoints[currWaypoint].transform.position;
-        //Debug.Log("Current Position = " + currWaypoint + " Distance = " + Vector3.Distance(obj.transform.position, target));
     }
 
-    void Update()
+	private void OnEnable()
+	{
+		if (obj != null)
+		{
+			obj.transform.position = wayPoints[0].transform.position;
+			currWaypoint = 1;
+			target = wayPoints[currWaypoint].transform.position;
+			obj.SetActive(true);
+		}
+	}
+
+	void Update()
     {
         if ((Vector3.Distance(obj.transform.position, target)) < 0.5)
         {
@@ -37,15 +58,14 @@ public class ObjectPath : MonoBehaviour
     {
         if (currWaypoint >= wayPoints.Length - 1)
         {
-            Destroy(obj);
-            //Debug.Log("Enemy destroyed");
+			obj.SetActive(false);
             currWaypoint = 0;
+			this.enabled = false;	// Disable the path as well, it is no longer needed for now
         }
         else
         {
             currWaypoint++;
         }
         target = wayPoints[currWaypoint].transform.position;
-        //Debug.Log("Current Position = " + currWaypoint + " Distance = " + Vector3.Distance(obj.transform.position, target));
     }
 }
