@@ -9,6 +9,7 @@ public class HitObjectController : MonoBehaviour
     public ViveRoleProperty objectRole;
     public AudioSource hitSound;
     public AudioSource errorSound;
+    public GameObject particleEffect;
 
     // Start is called before the first frame update
     void Start()
@@ -32,6 +33,7 @@ public class HitObjectController : MonoBehaviour
         if (objectRole == tracker.viveRole)
         {
             hitSound.Play(0);
+            GameObject effectObj = Instantiate(particleEffect, transform.position, transform.rotation);  
             Destroy(gameObject);
             Debug.Log("correct entered!");
         } else
@@ -43,4 +45,5 @@ public class HitObjectController : MonoBehaviour
     }
 
 
-}
+
+    }

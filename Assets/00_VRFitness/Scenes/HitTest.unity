@@ -272,6 +272,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6729917888428282806, guid: 87b771a06cb46864bb599367148f2b6e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 160e927fee0516540974f8357a0c7e75, type: 2}
+    - target: {fileID: 8138523653881202332, guid: 87b771a06cb46864bb599367148f2b6e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d8492626929ddfa418aab8ea13010428, type: 2}
+    - target: {fileID: 2593560462303595343, guid: 87b771a06cb46864bb599367148f2b6e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cea18608bc5d5a24980de6f2fdbb7526, type: 2}
+    - target: {fileID: 962357150394112562, guid: 87b771a06cb46864bb599367148f2b6e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5e3cdb5a55c8fa74c8b2d3e96768e6d7, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 87b771a06cb46864bb599367148f2b6e, type: 3}
 --- !u!1001 &182926590
@@ -351,6 +371,11 @@ PrefabInstance:
       propertyPath: errorSound
       value: 
       objectReference: {fileID: 1458483546}
+    - target: {fileID: 4657257754061886291, guid: 54e32c0c1fd4ffe4db7b38bb0d102e99,
+        type: 3}
+      propertyPath: particleEffect
+      value: 
+      objectReference: {fileID: 100000, guid: db6d9280399892342b96b2f411750b4d, type: 3}
     - target: {fileID: 1745121421901443789, guid: 54e32c0c1fd4ffe4db7b38bb0d102e99,
         type: 3}
       propertyPath: m_Enabled
@@ -753,6 +778,11 @@ PrefabInstance:
       propertyPath: errorSound
       value: 
       objectReference: {fileID: 1458483546}
+    - target: {fileID: 2103554635999423593, guid: 876fd05ba14d3d54a95d9a570805ee5a,
+        type: 3}
+      propertyPath: particleEffect
+      value: 
+      objectReference: {fileID: 100000, guid: bde04baf2bc6971498659f1e3815086c, type: 3}
     - target: {fileID: 1611790043872916213, guid: 876fd05ba14d3d54a95d9a570805ee5a,
         type: 3}
       propertyPath: m_Enabled
@@ -1395,6 +1425,11 @@ PrefabInstance:
       propertyPath: errorSound
       value: 
       objectReference: {fileID: 1458483546}
+    - target: {fileID: 5110774889114834118, guid: aa0624ebb46799342be01a967d3c472d,
+        type: 3}
+      propertyPath: particleEffect
+      value: 
+      objectReference: {fileID: 100000, guid: 7c134f36cc161b74cbd2eaadc199474b, type: 3}
     - target: {fileID: 4759450906904012784, guid: aa0624ebb46799342be01a967d3c472d,
         type: 3}
       propertyPath: m_Enabled
@@ -1480,6 +1515,11 @@ PrefabInstance:
       propertyPath: errorSound
       value: 
       objectReference: {fileID: 1458483546}
+    - target: {fileID: 3137662676068282174, guid: 3478107a318600b41aeb10dde32aed5d,
+        type: 3}
+      propertyPath: particleEffect
+      value: 
+      objectReference: {fileID: 100000, guid: 43ede16d5dfe5a34f847f4035ffd61e1, type: 3}
     - target: {fileID: 4461442340218369053, guid: 3478107a318600b41aeb10dde32aed5d,
         type: 3}
       propertyPath: m_Enabled
