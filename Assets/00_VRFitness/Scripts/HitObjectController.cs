@@ -32,13 +32,36 @@ public class HitObjectController : MonoBehaviour
 
         if (objectRole == tracker.viveRole)
         {
-            hitSound.Play(0);
-            GameObject effectObj = Instantiate(particleEffect, transform.position, transform.rotation);  
+            if (hitSound == null)
+            {
+                Debug.Log("Hit sound not set!");
+            }
+            else
+            {
+                hitSound.Play(0);
+            }
+
+            if (particleEffect == null)
+            {
+                Debug.Log("Destroy effect not set!");
+            }
+            else
+            {
+                GameObject effectObj = Instantiate(particleEffect, transform.position, transform.rotation);
+            }  
             Destroy(gameObject);
             Debug.Log("correct entered!");
-        } else
+        }
+        else
         {
-            errorSound.Play(0);
+            if (errorSound == null)
+            {
+                Debug.Log("Error sound not set!");
+            }
+            else
+            {
+                errorSound.Play(0);
+            }
         }
 
         
