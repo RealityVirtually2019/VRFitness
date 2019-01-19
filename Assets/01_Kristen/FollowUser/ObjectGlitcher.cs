@@ -8,8 +8,8 @@ public class ObjectGlitcher : MonoBehaviour {
     public float glitchChance = .05f;
 
     private Renderer blockRenderer;
-    private WaitForSeconds glitchLoopWait = new WaitForSeconds(.1f);
-    private WaitForSeconds glitchDuration = new WaitForSeconds(.1f);
+    private WaitForSeconds glitchLoopWait = new WaitForSeconds(.2f);
+    private WaitForSeconds glitchDuration = new WaitForSeconds(.2f);
 
     void Awake()
     {
@@ -34,9 +34,9 @@ public class ObjectGlitcher : MonoBehaviour {
 
     IEnumerator Glitch()
     {
-        glitchDuration = new WaitForSeconds(Random.Range(.05f,.25f));
+        glitchDuration = new WaitForSeconds(Random.Range(.05f,.2f));
         blockRenderer.material.SetFloat ("_Amount", 1f);
-        blockRenderer.material.SetFloat ("_CutoutThresh", .29f);
+        blockRenderer.material.SetFloat ("_CutoutThresh", .2f);
         blockRenderer.material.SetFloat ("_Amplitude", Random.Range (100, 250));
         blockRenderer.material.SetFloat ("_Speed", Random.Range (1, 10));
         yield return glitchDuration;
