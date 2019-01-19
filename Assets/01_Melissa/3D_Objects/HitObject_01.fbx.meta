@@ -1,17 +1,17 @@
 fileFormatVersion: 2
-guid: eae83e8d5457c2f4c86126269f5f2662
+guid: aa013c4ee5a421648922f6d9b6aae208
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
-    2100000: mat.tree-laurel
+    2100000: lambert1
     2300000: //RootNode
     3300000: //RootNode
-    4300000: Icosphere.000
+    4300000: hitObject_01
   externalObjects: {}
   materials:
-    importMaterials: 0
+    importMaterials: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
