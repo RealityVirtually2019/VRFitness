@@ -66,6 +66,7 @@ MonoBehaviour:
   hitSound: {fileID: 6337814073871736893}
   errorSound: {fileID: 4858736714330933703}
   particleEffect: {fileID: 100000, guid: 43ede16d5dfe5a34f847f4035ffd61e1, type: 3}
+  mesh: {fileID: 1929787319700683542}
 --- !u!82 &6337814073871736893
 AudioSource:
   m_ObjectHideFlags: 0
@@ -366,6 +367,12 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: b1f22863230f61449a0a84fb23cef1b5, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d3523600929d0cc4b9f035a67b6bcbb7, type: 3}
+--- !u!1 &1929787319700683542 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: d3523600929d0cc4b9f035a67b6bcbb7,
+    type: 3}
+  m_PrefabInstance: {fileID: 1929787319700585910}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1929787319700186934 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: d3523600929d0cc4b9f035a67b6bcbb7,
