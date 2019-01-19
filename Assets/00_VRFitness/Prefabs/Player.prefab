@@ -117,7 +117,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1308346402434602011}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -127,7 +127,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: aaefcbab7d9b1450ab0c681e26f2b254, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3772,10 +3772,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6069280353932428859}
     m_Modifications:
-    - target: {fileID: 100000, guid: e575bebc35c0aba43ae593d01f8a5b2e, type: 3}
-      propertyPath: m_Name
-      value: Foot_R
-      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e575bebc35c0aba43ae593d01f8a5b2e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.012
@@ -3831,6 +3827,10 @@ PrefabInstance:
     - target: {fileID: 400000, guid: e575bebc35c0aba43ae593d01f8a5b2e, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.022
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e575bebc35c0aba43ae593d01f8a5b2e, type: 3}
+      propertyPath: m_Name
+      value: Foot_R
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: e575bebc35c0aba43ae593d01f8a5b2e, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -4009,10 +4009,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6069280353932478555}
     m_Modifications:
-    - target: {fileID: 100000, guid: d28dbeabdf7def841b1f13b3236471b7, type: 3}
-      propertyPath: m_Name
-      value: Hand_L
-      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d28dbeabdf7def841b1f13b3236471b7, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0
@@ -4068,6 +4064,10 @@ PrefabInstance:
     - target: {fileID: 400000, guid: d28dbeabdf7def841b1f13b3236471b7, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d28dbeabdf7def841b1f13b3236471b7, type: 3}
+      propertyPath: m_Name
+      value: Hand_L
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: d28dbeabdf7def841b1f13b3236471b7, type: 3}
       propertyPath: m_Materials.Array.data[0]

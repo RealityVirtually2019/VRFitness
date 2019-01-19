@@ -6,6 +6,7 @@ public class HeadObstacleAvoider : MonoBehaviour
 {
 	private AudioListener ears = null;
 	private AudioLowPassFilter lowPassFilter = null;
+	private MeshRenderer meshRenderer = null;
 
 	private void Awake()
 	{
@@ -14,6 +15,13 @@ public class HeadObstacleAvoider : MonoBehaviour
 		{
 			Debug.LogError("HeadObstacleAvoider: Could not find AudioListener attached to main camera!");
 		}
+
+		meshRenderer = this.gameObject.GetComponent<MeshRenderer>();
+		if (meshRenderer == null)
+		{
+			Debug.LogError("HeadObstacleAvoider: Could not find MeshRenderer attached to this gameobject!");
+		}
+		meshRenderer.enabled = false;
 
 		lowPassFilter = ears.gameObject.AddComponent<AudioLowPassFilter>();
 		lowPassFilter.cutoffFrequency = 400.0f;
@@ -32,6 +40,7 @@ public class HeadObstacleAvoider : MonoBehaviour
 		if (obstacle != null)
 		{
 			lowPassFilter.enabled = true;
+			meshRenderer.enabled = true;
 		}
 	}
 
@@ -41,6 +50,7 @@ public class HeadObstacleAvoider : MonoBehaviour
 		if (obstacle != null)
 		{
 			lowPassFilter.enabled = false;
+			meshRenderer.enabled = false;
 		}
 	}
 
