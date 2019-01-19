@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4858626283602538602
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4858626283602538603}
+  - component: {fileID: 4858626283602538596}
+  m_Layer: 0
+  m_Name: KickPathsTest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4858626283602538603
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4858626283602538602}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4858626283602538596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4858626283602538602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 756e1a49fac285847b8289c5b1ba1aa2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PathPrefabs:
+  - {fileID: 2681252827456833468, guid: 02fb73852afbddc4086f3c718f4f3171, type: 3}
+  - {fileID: 6893821471678404264, guid: 872dafafa3a6a0d4d9dd0ce09b1f59d5, type: 3}
+  - {fileID: 7094493865676913388, guid: 86d4198699d46134eab1e00a16aeb760, type: 3}
+  - {fileID: 2147880015057530430, guid: 47ce98fb79c0f5f4dbeea3c2e24793af, type: 3}
+  - {fileID: 502241247779088623, guid: 971836bffbde9e34584c4a57af433df3, type: 3}
+  - {fileID: 7183953926636967199, guid: fe6ac8592ccd1cf4281692d75a8bca14, type: 3}
+  - {fileID: 7094493865676913388, guid: 86d4198699d46134eab1e00a16aeb760, type: 3}
+  - {fileID: 2147880015057530430, guid: 47ce98fb79c0f5f4dbeea3c2e24793af, type: 3}
+  - {fileID: 7622991558300874494, guid: b01c33dd802882e4093f64605e3a4fa2, type: 3}
+  - {fileID: 1121431204422609936, guid: 5eca0af2448bb064a8b7c98f285de1bf, type: 3}
+  SecondsBetweenStarting: 1
+  Loop: 1
