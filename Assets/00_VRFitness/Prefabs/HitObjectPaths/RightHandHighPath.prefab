@@ -45,9 +45,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e59b38620a066a4c864878205c6e302, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ObjectPrefab: {fileID: 6003243448570380970, guid: aa0624ebb46799342be01a967d3c472d,
+  ObjectPrefab: {fileID: 4651319050876869213, guid: f72ce7c2bc4beaf4bad09396e73b9e80,
     type: 3}
-  ObjectScale: {x: 0.2, y: 0.2, z: 0.2}
+  ObjectScale: {x: 1, y: 1, z: 1}
   wayPoints:
   - {fileID: 1526597530779962813}
   - {fileID: 1526597531387640473}

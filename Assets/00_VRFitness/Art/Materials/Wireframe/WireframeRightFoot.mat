@@ -30,4 +30,4 @@ Material:
     m_Floats:
     - _Thickness: 1
     m_Colors:
-    - _Color: {r: 0.16862746, g: 0.9960785, b: 0.45098042, a: 1}
+    - _Color: {r: 0, g: 0.99215686, b: 0.08782601, a: 1}
