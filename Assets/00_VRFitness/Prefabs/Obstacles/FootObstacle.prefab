@@ -96,13 +96,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   errorSound: {fileID: 8975843766259296203}
   foot1Role:
-    m_roleTypeFullName: HTC.UnityPlugin.Vive.DeviceRole
-    m_roleValueName: Device1
-    m_roleValueInt: 0
-  foot2Role:
-    m_roleTypeFullName: HTC.UnityPlugin.Vive.DeviceRole
-    m_roleValueName: Device2
+    m_roleTypeFullName: HTC.UnityPlugin.Vive.TrackerRole
+    m_roleValueName: Tracker1
     m_roleValueInt: 1
+  foot2Role:
+    m_roleTypeFullName: HTC.UnityPlugin.Vive.TrackerRole
+    m_roleValueName: Tracker2
+    m_roleValueInt: 2
 --- !u!82 &8975843766259296203
 AudioSource:
   m_ObjectHideFlags: 0

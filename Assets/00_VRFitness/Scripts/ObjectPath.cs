@@ -7,7 +7,7 @@ public class ObjectPath : MonoBehaviour
     public GameObject ObjectPrefab = null;
 	public Vector3 ObjectScale = Vector3.one;
     public Transform[] wayPoints;
-    public float speed = 2.0f;
+    private float speed = 3.0f;
 
     private int currWaypoint = 0;
     private Vector3 target;
@@ -66,7 +66,7 @@ public class ObjectPath : MonoBehaviour
         {
 			obj.SetActive(false);
             currWaypoint = 0;
-			this.enabled = false;	// Disable the path as well, it is no longer needed for now
+            Destroy(gameObject);
         }
         else
         {
