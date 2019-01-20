@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class ObjectGlitcher : MonoBehaviour {
 
-    //public Camera camera;
+    public Material regularBlock;
+    public Material glitchBlock;
+
     public float glitchChance = .05f;
 
     private Renderer blockRenderer;
@@ -15,7 +17,6 @@ public class ObjectGlitcher : MonoBehaviour {
     void Awake()
     {
         blockRenderer = GetComponent<Renderer> ();
-        //camera.backgroundColor = Color(1, 1, 1, 1);
     }
 
    /* void Start()
@@ -42,13 +43,9 @@ public class ObjectGlitcher : MonoBehaviour {
     IEnumerator Glitch()
     {
         glitchDuration = new WaitForSeconds(Random.Range(.05f,.2f));
-        blockRenderer.material.SetFloat ("_Amount", 1f);
-        blockRenderer.material.SetFloat ("_CutoutThresh", .2f);
-        blockRenderer.material.SetFloat ("_Amplitude", Random.Range (100, 250));
-        blockRenderer.material.SetFloat ("_Speed", Random.Range (1, 10));
+        blockRenderer.material = glitchBlock;
         yield return glitchDuration;
-        blockRenderer.material.SetFloat ("_Amount", 0f);
-        blockRenderer.material.SetFloat ("_CutoutThresh", 0f);
+        blockRenderer.material = regularBlock;
     }
 
 }
