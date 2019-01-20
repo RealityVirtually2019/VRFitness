@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/00_VRFitness/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/00_VRFitness/Scenes/MainMenu.unity
+    guid: 50f4acf3644e41f4f8ef14cb78b18c82
+  - enabled: 1
+    path: Assets/00_VRFitness/Scenes/StandingExercise.unity
+    guid: 26c1cef3f3efab84582c31bdda05f351
+  - enabled: 1
+    path: Assets/00_VRFitness/Scenes/SeatedExercise.unity
+    guid: bfea544f00b90b543af8d3fadccdf5ae
   m_configObjects: {}
