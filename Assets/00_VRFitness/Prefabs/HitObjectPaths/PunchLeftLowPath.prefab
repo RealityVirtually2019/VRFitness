@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8133059991271716133}
   - component: {fileID: 8133059991271716132}
   m_Layer: 0
-  m_Name: PunchLeftHighPath
+  m_Name: PunchLeftLowPath
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -71,7 +71,7 @@ PrefabInstance:
     - target: {fileID: 265610225428536644, guid: 8c48bebc486736a4c91b1764854debbd,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 265610225428536644, guid: 8c48bebc486736a4c91b1764854debbd,
         type: 3}
@@ -146,7 +146,7 @@ PrefabInstance:
     - target: {fileID: 265610225428536644, guid: 8c48bebc486736a4c91b1764854debbd,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 265610225428536644, guid: 8c48bebc486736a4c91b1764854debbd,
         type: 3}

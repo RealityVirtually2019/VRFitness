@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 9054435208577133584}
   - component: {fileID: 9054435208577133585}
   m_Layer: 0
-  m_Name: RightHandHighPath
+  m_Name: PunchRightHighPath
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -61,7 +61,7 @@ PrefabInstance:
     - target: {fileID: 7532341314409258344, guid: ca7b3d47c29fc384b9508bacb3ecc37f,
         type: 3}
       propertyPath: m_Name
-      value: HitTargetRightHigh (1)
+      value: End
       objectReference: {fileID: 0}
     - target: {fileID: 7532341314409258345, guid: ca7b3d47c29fc384b9508bacb3ecc37f,
         type: 3}
@@ -76,7 +76,7 @@ PrefabInstance:
     - target: {fileID: 7532341314409258345, guid: ca7b3d47c29fc384b9508bacb3ecc37f,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -8
+      value: -10
       objectReference: {fileID: 0}
     - target: {fileID: 7532341314409258345, guid: ca7b3d47c29fc384b9508bacb3ecc37f,
         type: 3}
@@ -136,7 +136,7 @@ PrefabInstance:
     - target: {fileID: 7532341314409258344, guid: ca7b3d47c29fc384b9508bacb3ecc37f,
         type: 3}
       propertyPath: m_Name
-      value: HitTargetRightHigh
+      value: Start
       objectReference: {fileID: 0}
     - target: {fileID: 7532341314409258345, guid: ca7b3d47c29fc384b9508bacb3ecc37f,
         type: 3}
@@ -151,7 +151,7 @@ PrefabInstance:
     - target: {fileID: 7532341314409258345, guid: ca7b3d47c29fc384b9508bacb3ecc37f,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 41.92
+      value: 40.3
       objectReference: {fileID: 0}
     - target: {fileID: 7532341314409258345, guid: ca7b3d47c29fc384b9508bacb3ecc37f,
         type: 3}
