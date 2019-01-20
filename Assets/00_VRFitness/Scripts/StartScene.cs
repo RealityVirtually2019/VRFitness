@@ -1,13 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class StartExercise : MonoBehaviour
+public class StartScene : MonoBehaviour
 {
 
-    public GameObject exerciseTimeline;
+    public string scene;
     public GameObject mesh;
-    public GameObject otherTrigger;
+    public AudioSource sound;
 
     private float speed = 0;
     private float endTime = float.PositiveInfinity;
@@ -15,7 +16,7 @@ public class StartExercise : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        exerciseTimeline.SetActive(false);
+
     }
 
     // Update is called once per frame
@@ -25,27 +26,27 @@ public class StartExercise : MonoBehaviour
 
         if (Time.time >= endTime)
         {
-            StartExerciseTimeline();
+            ChangeScene();
         }
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        endTime = Time.time + 3.0f;
+        endTime = Time.time + 4.0f;
         speed = 140f;
+        sound.Play();
     }
 
     private void OnTriggerExit(Collider other)
     {
         endTime = float.PositiveInfinity;
         speed = 0;
+        sound.Stop();
     }
 
-    private void StartExerciseTimeline()
+    private void ChangeScene()
     {
-        exerciseTimeline.SetActive(true);
-        Destroy(mesh);
-        Destroy(gameObject);
+        SceneManager.LoadScene(scene);
     }
 
 }
