@@ -29,7 +29,7 @@ public class ExerciseSequence : MonoBehaviour
 	// Update is called once per frame
 	void Update()
     {
-		if (Time.time >= lastPathStartTime + SecondsBetweenStarting)
+		if (Time.time >= lastPathStartTime + (SecondsBetweenStarting * BeatMultipleBetweenObjects))
 		{
 			StartNextPath();
 		}
