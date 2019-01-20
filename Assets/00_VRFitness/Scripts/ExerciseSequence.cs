@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PathTester : MonoBehaviour
+public class ExerciseSequence : MonoBehaviour
 {
 	public GameObject[] PathPrefabs;
 	public float SecondsBetweenStarting = 1.0f;
