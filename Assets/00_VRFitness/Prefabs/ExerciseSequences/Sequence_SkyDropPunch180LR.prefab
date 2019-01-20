@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 9057564161656675329}
   - component: {fileID: 9057564161656675330}
   m_Layer: 0
-  m_Name: TestSkyDropPaths
+  m_Name: Sequence_SkyDropPunch180LR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -66,5 +66,5 @@ MonoBehaviour:
   - {fileID: 3633590959811692729, guid: e9e3790629c580a4e83e75b73de4db49, type: 3}
   - {fileID: 8330919873154803126, guid: 291e36607864e7146bd891c0ea917fc6, type: 3}
   - {fileID: 8330919873154803126, guid: 2832d23c017b5544da41e4f3a75f7af4, type: 3}
-  SecondsBetweenStarting: 0.6
+  BeatMultipleBetweenObjects: 1
   Loop: 0

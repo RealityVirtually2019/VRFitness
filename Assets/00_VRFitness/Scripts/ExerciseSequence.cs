@@ -5,9 +5,11 @@ using UnityEngine;
 public class ExerciseSequence : MonoBehaviour
 {
 	public GameObject[] PathPrefabs;
-	public float SecondsBetweenStarting = 1.0f;
+	[Range(1,10)]
+	public int BeatMultipleBetweenObjects = 2; 
 	public bool Loop = true;
 
+	private const float SecondsBetweenStarting = 0.5f;
 	private int currentIndex = 0;
 	private float lastPathStartTime = 0.0f;
 

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4858626283602538603}
   - component: {fileID: 4858626283602538596}
   m_Layer: 0
-  m_Name: KickPathsTest
+  m_Name: Sequence_FrontKicks
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
