@@ -579,11 +579,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 7927822734696538641, guid: a492554a2d8ba514f9fbc79b12277777,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 4300002, guid: d027af1092f6b434090f040565e7e656, type: 3}
     - target: {fileID: 2786725249914683693, guid: a492554a2d8ba514f9fbc79b12277777,
         type: 3}
       propertyPath: m_LightProbeUsage
@@ -594,6 +589,11 @@ PrefabInstance:
       propertyPath: m_ReflectionProbeUsage
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7927822734696538641, guid: a492554a2d8ba514f9fbc79b12277777,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 4300002, guid: d027af1092f6b434090f040565e7e656, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a492554a2d8ba514f9fbc79b12277777, type: 3}
 --- !u!1 &1309069309
@@ -1095,6 +1095,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: TestSkyDropPaths
+      objectReference: {fileID: 0}
+    - target: {fileID: 9057564161656675331, guid: 1738f78b52938e84cbca4cbad801c248,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9057564161656675329, guid: 1738f78b52938e84cbca4cbad801c248,
         type: 3}

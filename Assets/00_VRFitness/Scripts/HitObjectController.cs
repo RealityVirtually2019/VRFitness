@@ -12,6 +12,8 @@ public class HitObjectController : MonoBehaviour
     public GameObject particleEffect;
     public GameObject mesh;
 
+    private bool active = true;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -31,7 +33,11 @@ public class HitObjectController : MonoBehaviour
 
         Debug.Log("Object role: " + objectRole + " ,Tracker role: " + tracker.viveRole);
 
-        if (objectRole == tracker.viveRole)
+        if (!active)
+        {
+            Debug.Log("Hit collider not active!");
+        }
+        else if (objectRole == tracker.viveRole)
         {
             if (hitSound == null)
             {
@@ -50,6 +56,7 @@ public class HitObjectController : MonoBehaviour
             {
                 GameObject effectObj = Instantiate(particleEffect, transform.position, transform.rotation);
             }
+            active = false;
             mesh.SetActive(false);
             Debug.Log("correct entered!");
         }

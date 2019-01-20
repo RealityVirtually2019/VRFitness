@@ -57,7 +57,6 @@ public class ObjectPath : MonoBehaviour
 
             //Add Rotation towards the target
             Vector3 dir = target - obj.transform.position;
-            dir.x = 0;
             Quaternion rot = Quaternion.LookRotation(dir);
             obj.transform.rotation = Quaternion.Slerp(obj.transform.rotation, rot, speed * Time.deltaTime);
         }
