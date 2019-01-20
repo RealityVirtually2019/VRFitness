@@ -61,7 +61,7 @@ PrefabInstance:
     - target: {fileID: 6459900375690288649, guid: 0ebdafac6c395fb4cb29435778344da9,
         type: 3}
       propertyPath: m_Name
-      value: Waypoint
+      value: Start
       objectReference: {fileID: 0}
     - target: {fileID: 6459900375690288648, guid: 0ebdafac6c395fb4cb29435778344da9,
         type: 3}
@@ -76,7 +76,7 @@ PrefabInstance:
     - target: {fileID: 6459900375690288648, guid: 0ebdafac6c395fb4cb29435778344da9,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 32.76
+      value: 40.3
       objectReference: {fileID: 0}
     - target: {fileID: 6459900375690288648, guid: 0ebdafac6c395fb4cb29435778344da9,
         type: 3}
@@ -136,7 +136,7 @@ PrefabInstance:
     - target: {fileID: 6459900375690288649, guid: 0ebdafac6c395fb4cb29435778344da9,
         type: 3}
       propertyPath: m_Name
-      value: Waypoint (1)
+      value: End
       objectReference: {fileID: 0}
     - target: {fileID: 6459900375690288648, guid: 0ebdafac6c395fb4cb29435778344da9,
         type: 3}
@@ -151,7 +151,7 @@ PrefabInstance:
     - target: {fileID: 6459900375690288648, guid: 0ebdafac6c395fb4cb29435778344da9,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -12.9
+      value: -10
       objectReference: {fileID: 0}
     - target: {fileID: 6459900375690288648, guid: 0ebdafac6c395fb4cb29435778344da9,
         type: 3}

@@ -39,7 +39,10 @@ public class ExerciseSequence : MonoBehaviour
 	{
 		if (currentIndex < PathPrefabs.Length)
 		{
-			Instantiate<GameObject>(PathPrefabs[currentIndex]);
+			if (PathPrefabs[currentIndex] != null)
+			{
+				Instantiate<GameObject>(PathPrefabs[currentIndex]);
+			}
 			lastPathStartTime = Time.time;
 			currentIndex++;
 			if (currentIndex >= PathPrefabs.Length)
