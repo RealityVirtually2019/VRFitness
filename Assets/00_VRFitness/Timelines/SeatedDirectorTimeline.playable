@@ -114,10 +114,10 @@ MonoBehaviour:
   m_Parent: {fileID: 11400000}
   m_Children: []
   m_Clips:
-  - m_Start: 79.66666666666667
+  - m_Start: 88
     m_ClipIn: 0
     m_Asset: {fileID: 114233849285177048}
-    m_Duration: 3.0833333333333286
+    m_Duration: 7.083333333333329
     m_TimeScale: 1
     m_ParentTrack: {fileID: 114305495179101250}
     m_EaseInDuration: 0
@@ -184,7 +184,7 @@ MonoBehaviour:
     m_DisplayName: Active
     m_Version: 1
   m_Version: 2
-  m_PostPlaybackState: 3
+  m_PostPlaybackState: 0
 --- !u!114 &114369272190860004
 MonoBehaviour:
   m_ObjectHideFlags: 1
