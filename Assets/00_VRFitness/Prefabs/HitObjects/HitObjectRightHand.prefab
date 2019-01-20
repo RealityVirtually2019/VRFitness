@@ -75,8 +75,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6609874747151842929}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.013, z: -0.141}
-  m_LocalScale: {x: 0.49015084, y: 0.3864575, z: 0.15984692}
+  m_LocalPosition: {x: 0, y: 0.042, z: -0.141}
+  m_LocalScale: {x: 0.31419855, y: 0.3041712, z: 0.15984692}
   m_Children: []
   m_Father: {fileID: 8821145952201247869}
   m_RootOrder: 1
@@ -124,7 +124,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 39ecca62d913fab4fa6b05bc1367f230, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 74c574aeb71a96a4597c988dff60f0c7, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.6
   m_Pitch: 1
@@ -313,10 +313,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8821145952201247869}
     m_Modifications:
-    - target: {fileID: 100000, guid: 2dfc1039b6c2a8a43a61b405d889f807, type: 3}
-      propertyPath: m_Name
-      value: HitObject_02
-      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2dfc1039b6c2a8a43a61b405d889f807, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.000000038146972
@@ -372,6 +368,10 @@ PrefabInstance:
     - target: {fileID: 400000, guid: 2dfc1039b6c2a8a43a61b405d889f807, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.005
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 2dfc1039b6c2a8a43a61b405d889f807, type: 3}
+      propertyPath: m_Name
+      value: HitObject_02
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 2dfc1039b6c2a8a43a61b405d889f807, type: 3}
       propertyPath: m_Materials.Array.data[0]

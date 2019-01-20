@@ -32,7 +32,7 @@ public class StartScene : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        endTime = Time.time + 4.0f;
+        endTime = Time.time + 2.0f;
         speed = 140f;
         sound.Play();
     }
