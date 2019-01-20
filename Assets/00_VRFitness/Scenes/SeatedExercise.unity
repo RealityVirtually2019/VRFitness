@@ -376,6 +376,8 @@ GameObject:
   - component: {fileID: 212932913}
   - component: {fileID: 212932912}
   - component: {fileID: 212932911}
+  - component: {fileID: 212932916}
+  - component: {fileID: 212932910}
   m_Layer: 0
   m_Name: VideoCaptureCtrl
   m_TagString: Untagged
@@ -383,6 +385,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &212932910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 212932909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53bf4be83c4174504b904e958637cced, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &212932911
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -457,7 +471,7 @@ MonoBehaviour:
   quitAfterCapture: 0
   _videoCaptures:
   - {fileID: 49591193}
-  _audioCapture: {fileID: 0}
+  _audioCapture: {fileID: 212932910}
 --- !u!4 &212932915
 Transform:
   m_ObjectHideFlags: 0
@@ -473,6 +487,14 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!81 &212932916
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 212932909}
+  m_Enabled: 1
 --- !u!1001 &275686122
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1605,7 +1627,7 @@ PrefabInstance:
     - target: {fileID: 791716813109206912, guid: 4df8c33e453a9d442bff57dacbfeb1a3,
         type: 3}
       propertyPath: m_text
-      value: You Burned 12 Calories!
+      value: You Burned 18 Calories!
       objectReference: {fileID: 0}
     - target: {fileID: 791716813109206912, guid: 4df8c33e453a9d442bff57dacbfeb1a3,
         type: 3}

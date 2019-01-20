@@ -714,7 +714,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 0aa6b6c4aae5b2c4291ecf2a23fe825d, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.8
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -892,6 +892,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 791716813222080957, guid: 4df8c33e453a9d442bff57dacbfeb1a3,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 791716813222080959, guid: 4df8c33e453a9d442bff57dacbfeb1a3,
+        type: 3}
+      propertyPath: m_havePropertiesChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 791716813222080959, guid: 4df8c33e453a9d442bff57dacbfeb1a3,
+        type: 3}
+      propertyPath: m_isInputParsingRequired
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 791716813109206918, guid: 4df8c33e453a9d442bff57dacbfeb1a3,
         type: 3}
       propertyPath: m_Mesh
@@ -907,20 +922,10 @@ PrefabInstance:
       propertyPath: m_isInputParsingRequired
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 791716813222080957, guid: 4df8c33e453a9d442bff57dacbfeb1a3,
+    - target: {fileID: 791716813109206912, guid: 4df8c33e453a9d442bff57dacbfeb1a3,
         type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 791716813222080959, guid: 4df8c33e453a9d442bff57dacbfeb1a3,
-        type: 3}
-      propertyPath: m_havePropertiesChanged
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 791716813222080959, guid: 4df8c33e453a9d442bff57dacbfeb1a3,
-        type: 3}
-      propertyPath: m_isInputParsingRequired
-      value: 1
+      propertyPath: m_text
+      value: You Burned 26 Calories!
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4df8c33e453a9d442bff57dacbfeb1a3, type: 3}
@@ -1007,11 +1012,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 7927822734696538641, guid: a492554a2d8ba514f9fbc79b12277777,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 4300002, guid: d027af1092f6b434090f040565e7e656, type: 3}
     - target: {fileID: 2786725249914683693, guid: a492554a2d8ba514f9fbc79b12277777,
         type: 3}
       propertyPath: m_LightProbeUsage
@@ -1022,6 +1022,11 @@ PrefabInstance:
       propertyPath: m_ReflectionProbeUsage
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7927822734696538641, guid: a492554a2d8ba514f9fbc79b12277777,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 4300002, guid: d027af1092f6b434090f040565e7e656, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a492554a2d8ba514f9fbc79b12277777, type: 3}
 --- !u!1001 &1259366351
