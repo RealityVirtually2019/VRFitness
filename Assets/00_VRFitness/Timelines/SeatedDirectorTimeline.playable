@@ -15,7 +15,6 @@ MonoBehaviour:
   m_NextId: 0
   m_Tracks:
   - {fileID: 114929103271703944}
-  - {fileID: 114784363526397836}
   - {fileID: 114480308540372236}
   - {fileID: 114793405287278260}
   - {fileID: 114305495179101250}
@@ -115,7 +114,7 @@ MonoBehaviour:
   m_Parent: {fileID: 11400000}
   m_Children: []
   m_Clips:
-  - m_Start: 92
+  - m_Start: 79.66666666666667
     m_ClipIn: 0
     m_Asset: {fileID: 114233849285177048}
     m_Duration: 3.0833333333333286
@@ -303,7 +302,7 @@ MonoBehaviour:
   - m_Start: 0
     m_ClipIn: 0
     m_Asset: {fileID: 114054110599424676}
-    m_Duration: 80.08333333333333
+    m_Duration: 95.08333333333333
     m_TimeScale: 1
     m_ParentTrack: {fileID: 114480308540372236}
     m_EaseInDuration: 0
@@ -466,96 +465,6 @@ MonoBehaviour:
   searchHierarchy: 1
   active: 1
   postPlayback: 1
---- !u!114 &114784363526397836
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 46519060, guid: 6a10b2909283487f913b00d94cd3faf5, type: 3}
-  m_Name: Activation Track
-  m_EditorClassIdentifier: 
-  m_Locked: 0
-  m_Muted: 0
-  m_CustomPlayableFullTypename: 
-  m_AnimClip: {fileID: 0}
-  m_Parent: {fileID: 11400000}
-  m_Children: []
-  m_Clips:
-  - m_Start: 0
-    m_ClipIn: 0
-    m_Asset: {fileID: 114859877068041930}
-    m_Duration: 0.016666666666666666
-    m_TimeScale: 1
-    m_ParentTrack: {fileID: 114784363526397836}
-    m_EaseInDuration: 0
-    m_EaseOutDuration: 0
-    m_BlendInDuration: 0
-    m_BlendOutDuration: 0
-    m_MixInCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_MixOutCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_BlendInCurveMode: 0
-    m_BlendOutCurveMode: 0
-    m_ExposedParameterNames: []
-    m_AnimationCurves: {fileID: 0}
-    m_Recordable: 0
-    m_PostExtrapolationMode: 0
-    m_PreExtrapolationMode: 0
-    m_PostExtrapolationTime: 0
-    m_PreExtrapolationTime: 0
-    m_DisplayName: Active
-    m_Version: 1
-  m_Version: 2
-  m_PostPlaybackState: 1
 --- !u!114 &114793405287278260
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -575,7 +484,7 @@ MonoBehaviour:
   m_Parent: {fileID: 11400000}
   m_Children: []
   m_Clips:
-  - m_Start: 30
+  - m_Start: 28
     m_ClipIn: 0
     m_Asset: {fileID: 114603718774384210}
     m_Duration: 8
@@ -785,7 +694,7 @@ MonoBehaviour:
   - m_Start: 10
     m_ClipIn: 0
     m_Asset: {fileID: 114711407281070326}
-    m_Duration: 9
+    m_Duration: 8
     m_TimeScale: 1
     m_ParentTrack: {fileID: 114793405287278260}
     m_EaseInDuration: 0
@@ -851,7 +760,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SeatedSequence_LeanAndPunch
     m_Version: 1
-  - m_Start: 20
+  - m_Start: 18
     m_ClipIn: 0
     m_Asset: {fileID: 114612662986188612}
     m_Duration: 4.5
@@ -920,7 +829,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Sequence_SeatedJazzerciseRight
     m_Version: 1
-  - m_Start: 24.500000000000014
+  - m_Start: 22.500000000000014
     m_ClipIn: 0
     m_Asset: {fileID: 114891167649316974}
     m_Duration: 4.5
@@ -989,7 +898,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Sequence_JazzercizeLeft
     m_Version: 1
-  - m_Start: 39
+  - m_Start: 37
     m_ClipIn: 0
     m_Asset: {fileID: 114611340531664426}
     m_Duration: 4.5
@@ -1058,7 +967,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Sequence_SeatedJazzerciseRight
     m_Version: 1
-  - m_Start: 43.5
+  - m_Start: 41.5
     m_ClipIn: 0
     m_Asset: {fileID: 114070534821475468}
     m_Duration: 4.5
@@ -1127,10 +1036,10 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Sequence_JazzercizeLeft
     m_Version: 1
-  - m_Start: 49
+  - m_Start: 46
     m_ClipIn: 0
     m_Asset: {fileID: 114385579491713704}
-    m_Duration: 9
+    m_Duration: 8
     m_TimeScale: 1
     m_ParentTrack: {fileID: 114793405287278260}
     m_EaseInDuration: 0
@@ -1196,7 +1105,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SeatedSequence_LeanAndPunch
     m_Version: 1
-  - m_Start: 59
+  - m_Start: 55
     m_ClipIn: 0
     m_Asset: {fileID: 114369272190860004}
     m_Duration: 4.5
@@ -1265,7 +1174,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Sequence_SeatedJazzerciseRight
     m_Version: 1
-  - m_Start: 63.500000000000014
+  - m_Start: 59.5
     m_ClipIn: 0
     m_Asset: {fileID: 114471499113754540}
     m_Duration: 4.5
@@ -1334,7 +1243,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Sequence_JazzercizeLeft
     m_Version: 1
-  - m_Start: 69
+  - m_Start: 64
     m_ClipIn: 0
     m_Asset: {fileID: 114272083830408006}
     m_Duration: 8
@@ -1404,18 +1313,6 @@ MonoBehaviour:
     m_DisplayName: Sequence_SeatedStepAndStomp
     m_Version: 1
   m_Version: 2
---- !u!114 &114859877068041930
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 442072544, guid: 6a10b2909283487f913b00d94cd3faf5, type: 3}
-  m_Name: ActivationPlayableAsset
-  m_EditorClassIdentifier: 
 --- !u!114 &114891167649316974
 MonoBehaviour:
   m_ObjectHideFlags: 1
