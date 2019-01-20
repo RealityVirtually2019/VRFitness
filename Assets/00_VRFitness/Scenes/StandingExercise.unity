@@ -684,6 +684,63 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &763089976
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 953299076, guid: ee604e749d6161f4b9e78b93c25150c3, type: 3}
+      propertyPath: m_Name
+      value: SkyDome
+      objectReference: {fileID: 0}
+    - target: {fileID: 953299079, guid: ee604e749d6161f4b9e78b93c25150c3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 953299079, guid: ee604e749d6161f4b9e78b93c25150c3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 19.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 953299079, guid: ee604e749d6161f4b9e78b93c25150c3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 953299079, guid: ee604e749d6161f4b9e78b93c25150c3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 953299079, guid: ee604e749d6161f4b9e78b93c25150c3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 953299079, guid: ee604e749d6161f4b9e78b93c25150c3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 953299079, guid: ee604e749d6161f4b9e78b93c25150c3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 953299079, guid: ee604e749d6161f4b9e78b93c25150c3, type: 3}
+      propertyPath: m_RootOrder
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 953299079, guid: ee604e749d6161f4b9e78b93c25150c3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 953299079, guid: ee604e749d6161f4b9e78b93c25150c3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 953299079, guid: ee604e749d6161f4b9e78b93c25150c3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ee604e749d6161f4b9e78b93c25150c3, type: 3}
 --- !u!1 &930101408
 GameObject:
   m_ObjectHideFlags: 0
@@ -892,21 +949,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 791716813222080957, guid: 4df8c33e453a9d442bff57dacbfeb1a3,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 791716813222080959, guid: 4df8c33e453a9d442bff57dacbfeb1a3,
-        type: 3}
-      propertyPath: m_havePropertiesChanged
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 791716813222080959, guid: 4df8c33e453a9d442bff57dacbfeb1a3,
-        type: 3}
-      propertyPath: m_isInputParsingRequired
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 791716813109206918, guid: 4df8c33e453a9d442bff57dacbfeb1a3,
         type: 3}
       propertyPath: m_Mesh
@@ -926,6 +968,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_text
       value: You Burned 26 Calories!
+      objectReference: {fileID: 0}
+    - target: {fileID: 791716813222080957, guid: 4df8c33e453a9d442bff57dacbfeb1a3,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 791716813222080959, guid: 4df8c33e453a9d442bff57dacbfeb1a3,
+        type: 3}
+      propertyPath: m_havePropertiesChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 791716813222080959, guid: 4df8c33e453a9d442bff57dacbfeb1a3,
+        type: 3}
+      propertyPath: m_isInputParsingRequired
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4df8c33e453a9d442bff57dacbfeb1a3, type: 3}
@@ -1012,6 +1069,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7927822734696538641, guid: a492554a2d8ba514f9fbc79b12277777,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 4300002, guid: d027af1092f6b434090f040565e7e656, type: 3}
     - target: {fileID: 2786725249914683693, guid: a492554a2d8ba514f9fbc79b12277777,
         type: 3}
       propertyPath: m_LightProbeUsage
@@ -1022,11 +1084,6 @@ PrefabInstance:
       propertyPath: m_ReflectionProbeUsage
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7927822734696538641, guid: a492554a2d8ba514f9fbc79b12277777,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 4300002, guid: d027af1092f6b434090f040565e7e656, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a492554a2d8ba514f9fbc79b12277777, type: 3}
 --- !u!1001 &1259366351
