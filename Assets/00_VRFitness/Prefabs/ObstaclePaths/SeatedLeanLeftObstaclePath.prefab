@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 9215110997252661508}
   - component: {fileID: 8035614646906277435}
   m_Layer: 0
-  m_Name: SeatedLeanLeftObstaclePath
+  m_Name: SeatedLeanRightObstaclePath
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -47,7 +47,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ObjectPrefab: {fileID: 6238274636042604882, guid: 104da8caf94690b499dcd1b7f80e1ab8,
     type: 3}
-  ObjectScale: {x: 1, y: 0.5, z: 1}
+  ObjectScale: {x: 2, y: 0.5, z: 1}
   wayPoints:
   - {fileID: 5145829312120731471}
   - {fileID: 5145829311028106810}
@@ -61,7 +61,7 @@ PrefabInstance:
     - target: {fileID: 6459900375690288648, guid: 0ebdafac6c395fb4cb29435778344da9,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6459900375690288648, guid: 0ebdafac6c395fb4cb29435778344da9,
         type: 3}
@@ -136,7 +136,7 @@ PrefabInstance:
     - target: {fileID: 6459900375690288648, guid: 0ebdafac6c395fb4cb29435778344da9,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6459900375690288648, guid: 0ebdafac6c395fb4cb29435778344da9,
         type: 3}

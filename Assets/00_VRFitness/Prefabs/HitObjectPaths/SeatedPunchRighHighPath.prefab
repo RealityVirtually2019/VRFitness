@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8133059991271716133}
   - component: {fileID: 8133059991271716132}
   m_Layer: 0
-  m_Name: PunchLeftMidPath 1
+  m_Name: SeatedPunchRightHighPath
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -45,7 +45,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e59b38620a066a4c864878205c6e302, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ObjectPrefab: {fileID: 4651319050876869213, guid: 77aaaa8de7518114b8039b51a28beea8,
+  ObjectPrefab: {fileID: 4651319050876869213, guid: f72ce7c2bc4beaf4bad09396e73b9e80,
     type: 3}
   ObjectScale: {x: 1, y: 1, z: 1}
   wayPoints:
