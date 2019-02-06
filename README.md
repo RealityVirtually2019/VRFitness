@@ -9,3 +9,5 @@ Players wear an [HTC Vive](https://www.vive.com/us/product/vive-virtual-reality-
 More details about the project & team, including a gameplay video, can be found at the [<b>VR Fitness</b> Devpost](https://devpost.com/software/vr-fitness) page.
 
 <i>Note: Project requires Unity 3D 2018.3 or later to build and SteamVR runtime, HTC Vive with 2 Controllers, and 2 Vive Trackers to properly run.</i>
+
+If you just want to try out the demo, you can download it [here](https://www.dropbox.com/s/k872v3vr04lz4ba/VRFitnessDemo.zip?dl=0).
